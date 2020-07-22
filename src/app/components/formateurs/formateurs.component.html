@@ -1,0 +1,9 @@
+<h3>Nos formateurs</h3>
+
+<div *ngFor="let formateur of formateurs">
+    
+
+    <img class="img-fluid" src="{{ environment.apiUrl }}{{ formateur.Photo.url }}" alt="" />
+
+    <p>{{ formateur.Nom }}</p>
+</div>
